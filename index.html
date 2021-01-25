@@ -33,12 +33,15 @@
     <header class="jumbotron">
         <div class="container ">
             <div class="row row-header">
-                <div class="col-12 col-sm-9">
+                <div class="col-12 col-sm-6">
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm align-self-center">
+                <div class="col-12 col-sm-3 align-self-center">
                     <img src="img/logo.png" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-3 align-self-center">
+                    <a href="#Reserve"> <button type="button" class="btn btn-warning btn-sm">Reserve</button></a>
                 </div>
             </div>
         </div>
@@ -46,11 +49,11 @@
 
     <div class="container">
         
-        <div class="row row-content">
+        <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
                 <h3>Lip-smacking goodness</h3>
             </div>
-            <div class ="col order-sm-first">
+            <div class ="col col-sm order-sm-first">
                 <div class="media">
                     <img class="d-flex mr-3 img-thumbnail align-self-center"
                             src="img/uthappizza.png" alt="Uthappizza">
@@ -65,7 +68,25 @@
             </div>
         </div>
 
-        <div class="row row-content">
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 order-sm-first col-md-3">
+                <h3>This month's grrand Promotion</h3>
+            </div>
+            <div class ="col col-sm order-sm-last">
+                <div class="media">
+                    
+                    <div class="media-body">
+                        <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                        <p class="d-none d-sm-block">Featuring mouth-wathering combninations with a choice of five diffrent 
+                            salads,six enticing appetizers, six main entrees and six of the choiciest desserts. Free flowing bubbly and soft drinks. All for just $19.99 a person. </p>
+                    </div>
+                    <img class="d-flex mr-3 img-thumbnail align-self-center"
+                            src="img/buffet.png" alt="Buffet">
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
                 <h3>Meet our Experts</h3>
             </div>
@@ -87,8 +108,78 @@
             </div>
         </div>
         
+    
+    <div class = "col-12 col-sm-8 offset-sm-2">
+        <div class="card" id="Reserve">
+            <h3 class = "card-header text-white" style ="background-color:goldenrod">
+                Reserve a Table
+            </h3>
+            <div class="card-body">
+                <form>
+                    <div class="form-group row">
+                        <div class ="col-12 col-lg-2">
+                            Number of Guests
+                        </div>
+
+                        <div class ="col-2 col-lg-1">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1">1</label>
+                            </div>
+                        </div>
+                        <div class ="col-2 col-lg-1">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio1">2</label>
+                            </div>
+                        </div>
+                        <div class ="col-2 col-lg-1">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                <label class="form-check-label" for="inlineRadio1">3</label>
+                            </div>
+                        </div>
+                        <div class ="col-2 col-lg-1">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                                <label class="form-check-label" for="inlineRadio1">4</label>
+                            </div>
+                        </div>
+                        <div class ="col-2 col-lg-1">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5">
+                                <label class="form-check-label" for="inlineRadio1">5</label>
+                            </div>
+                        </div>
+                        <div class ="col-2 col-lg-1">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option6">
+                                <label class="form-check-label" for="inlineRadio1">6</label>
+                            </div>
+                        </div>
+                </div>
+                </form>
+                <form>
+                <div class="form-group row">
+                    <label for="date" class="col-12 col-lg-2 col-form-label">Date and Time</label>
+                    <div class="col-12 col-lg-5">
+                        <input type="text" class="form-control" id="date" aria-describedby="date" placeholder="Date">
+                    </div>
+                    <div class="col-12 col-lg-5">
+                        <input type="text" class="form-control" id="time" aria-describedby="time" placeholder="Time">
+                    </div>
+                </div>
+                <div class="col-8 offset-lg-2">
+                    <button type="button" class="btn btn-primary">Reservation </button>
+                </div>
+            </form>
+
+         </div>
     </div>
 
+
+    </div>
+</div>
 
     <footer class="footer">
         <div class="container ">
